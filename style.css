@@ -102,3 +102,12 @@ nav ul li a:hover {
         opacity: 1;
     }
 }
+
+/* About Cards Styles */
+
+.about-cards h3 {
+    color: var(--secondary-col);
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
