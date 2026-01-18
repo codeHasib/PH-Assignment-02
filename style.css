@@ -92,22 +92,62 @@ nav ul li a:hover {
 
 /* Hero Section loading screen animation */
 @keyframes slide-in {
-    0% {
-        transform: translateY(20px);
-        opacity: 0.1;
-    }
+  0% {
+    transform: translateY(20px);
+    opacity: 0.1;
+  }
 
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 /* About Cards Styles */
-
 .about-cards h3 {
-    color: var(--secondary-col);
-    font-size: 28px;
+  color: var(--secondary-col);
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+/* Why Choose Cards Styles */
+.why-choose-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  background-color: #2a0f4d;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.why-choose-cards i {
+  font-size: 45px;
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(230, 103, 103, 1) 50%,
+    rgba(131, 58, 180, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.why-choose-cards h3 {
+    font-size: 24px;
     font-weight: bolder;
-    
+}
+
+@media screen and (max-width:576px) {
+    .why-choose-cards h3 {
+        font-size: 18px;
+    }
+}
+
+.why-choose-cards p {
+    font-weight: lighter;
+    color: rgb(236, 234, 234);
 }
