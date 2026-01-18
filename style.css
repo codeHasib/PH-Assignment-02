@@ -204,3 +204,10 @@ nav ul li a:hover {
     justify-content: center;
     border-radius: 50%;
 }
+
+/* Footer Styles */
+.footer-icon-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
