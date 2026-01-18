@@ -152,6 +152,9 @@ nav ul li a:hover {
     .why-choose-cards h3 {
         font-size: 18px;
     }
+    .btn {
+      padding: 12px;
+    }
 }
 
 .why-choose-cards p {
