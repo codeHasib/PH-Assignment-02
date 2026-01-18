@@ -1,0 +1,75 @@
+/* Tailwind Intellisense Activated */
+@import "tailwindcss";
+
+/* Design Variables */
+:root {
+  --gradient-col: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(131, 58, 180, 1) 100%
+  );
+  --secondary-col: #00ff88;
+}
+
+/* Default Styles */
+* {
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #1a0b2e;
+  scroll-behavior: smooth;
+}
+
+section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 15px 20px;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 15px 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav ul li a {
+    transition: 0.2s ease;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+/* Shared Styles */
+
+.logo-gradient {
+  color: transparent;
+  background: var(--gradient-col);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: var(--gradient-col);
+    border-radius: 45px;
+    font-weight: bolder;
+    /* display: flex; */
+    gap: 10px;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover{
+   transform: scale(1.05);
+   box-shadow: 1px 1px 8px purple;
+}
+

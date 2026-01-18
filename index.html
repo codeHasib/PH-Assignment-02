@@ -1,15 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Techwave | CoDeHaSiB</title>
-</head>
-<body>
-    
-    
-
-</body>
+  </head>
+  <body>
+    <header class="border-b-1 border-gray-600">
+      <nav class="flex justify-between items-center">
+        <h2 class="text-3xl font-extrabold">
+          Tech<span class="logo-gradient">Wave</span>
+        </h2>
+        <ul class="hidden gap-10 md:flex lg:flex">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">Host</a></li>
+        </ul>
+        <button class="btn hidden lg:flex md:flex">
+          Subscribe <span> <i class="fa-solid fa-arrow-right"></i> </span>
+        </button>
+        <span class="block lg:hidden md:hidden">
+          <img src="./assets/hamburger-menu.png" alt="" />
+        </span>
+      </nav>
+    </header>
+  </body>
 </html>
